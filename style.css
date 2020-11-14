@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 #greeting {
   text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
