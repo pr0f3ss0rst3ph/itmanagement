@@ -3,13 +3,13 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 var hour = today.getHours(); //Get hours to determine the hour of the day
 
 if(hour<12){ //Hours below 12 are morning hours (This includes 0 and 1 which refers to midnight)
-    document.querySelector('#greeting').innerHTML="Good Morning! IT Support";
+    document.querySelector('#greeting').innerHTML="Good Morning! IT Support |";
 }
 else if(hour>=12 && hour <= 18){ //These hours are the afternoon period
-    document.querySelector('#greeting').innerHTML = "Good Afternoon! IT Support";
+    document.querySelector('#greeting').innerHTML = "Good Afternoon! IT Support |";
 }
 else{
-    document.querySelector('#greeting').innerHTML = "Good Evening! IT Support";
+    document.querySelector('#greeting').innerHTML = "Good Evening! IT Support |";
 }
 
 /*
